@@ -28,3 +28,10 @@ class Stringcount {
             System.out.println("Special="+sp);
             }
             }
+output:
+Java IS Simple @87
+Alphabet=12
+Upper case=4
+Lower case=8
+Digit=2
+Special=4
