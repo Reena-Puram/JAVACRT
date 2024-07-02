@@ -1,0 +1,14 @@
+import java.util.*;
+class Splitstring {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        String str="java is simple language";
+        String res[]=str.split(" ");
+        System.out.println(Arrays.toString(res));
+        String res1[]=str.split("simple");
+        System.out.println(Arrays.toString(res1));
+    }
+}
+output:
+[java, is, simple, language]
+[java is ,  language]
