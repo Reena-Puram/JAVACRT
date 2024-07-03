@@ -1,0 +1,13 @@
+import java.util.*;
+class Trim
+{
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+String str="234";
+String str1="453";
+System.out.println(Integer.parseInt(str)+Integer.parseInt(str1));
+}
+}
+output:
+687
