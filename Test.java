@@ -1,16 +1,19 @@
 import java.util.*;
 import java.lang.String;
-class Sample	
+class Test 
 {
-int a=10;
+void show()
+{
+System.out.println("Show method ");
 }
-class Test
+Test()
 {
+System.out.println("Constructor");
+}
 public static void main(String args[])
 {
-Sample s1=new Sample();
-System.out.println(s1.a);
-Sample s2=new Sample();
-System.out.println(s2.a);
+Test t1=new Test();
+Test t2=new Test();
+t1.show();
 }
 }
