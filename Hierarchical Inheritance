@@ -1,0 +1,32 @@
+import java.util.*;
+import java.lang.String;
+class Hierarchical
+{
+public static void main(String args[])
+{
+child c1=new child();
+c1.show(70,80);
+}
+}
+class Parent
+{
+int a=100;
+int b=200;
+}
+class child extends Parent
+{
+int a=44,b=66;
+void show(int a,int b)
+{
+System.out.println(a+b);
+System.out.println(this.a+this.b);
+System.out.println(super.a+super.b);
+}
+}
+output:
+150
+110
+300
+
+
+
